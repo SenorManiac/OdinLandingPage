@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 10%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #212121;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 0  10%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0 ;
+}
+
+uL {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container1
+{
+    background-color: #1F2937;
+    display: flex;
+    }
+
+.leftcontainer1
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right : auto;
+    margin-top: 20px;
+    margin-left: 10%;
+    justify-content: center;
+}
+.rightcontainer1
+{
+    width: 50%;
+    display:flex;
+    padding-left : auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    justify-content:right;
+    margin-right: 10%;
+}
+
+.image1{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+.container1-text1{
+    color: #F9faf8;
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.container1-text2{
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.container1-button button{
+    background-color: #3882f6;
+    color:#F9faf8;
+    text-align: center;
+    margin-top: 10px;
+    width: 30%;
+    height: auto;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border-color: #3882f6;
+    border-style: none;
+}
+.container2
+{
+    background-color: #FFF;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+    color: #1F2937;
+    align-items: center;
+
+}
+.container2-text1
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.container3
+{
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    padding: 0 40px;
+}
+
+.container4
+{
+    background-color: #FFF;
+    height: 200px;
+    display: flex;
+    padding: 0 40px;
+}
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
