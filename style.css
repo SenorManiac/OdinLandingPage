@@ -159,7 +159,7 @@ a {
     font-style: italic;
     font-weight:200
     padding: auto;
-    
+     
 }
 .container3-text2
 {
@@ -169,9 +169,61 @@ a {
 .container4
 {
     background-color: #FFF;
-    height: 200px;
+    color:#F9faf8;
+    height: auto;
     display: flex;
     padding: 0 40px;
+}
+.c41
+{
+    margin: 5% 10%;
+    width: 100%;
+    height:auto;
+    background-color: #3882f6;
+    display:flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 2.25%;
+    
+    
+}
+.container4-text1{
+    width: 60%;
+    height: auto
+    padding: 5%;
+
+}
+.p1{
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom:0 ;
+}
+.p2{
+    font-size: 18px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.container4-button
+{ width: 15%;
+    padding-left: 10%;
+
+    
+}
+
+.container4-button button{
+    background-color: #3882f6;
+    color:#F9faf8;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border-color: #F9faf8;
+    border-style: solid;
 }
 footer {
     background-color: #1F2937;
